@@ -1,1 +1,18 @@
-to be added
+The weekly todo App is built with tkinter (listbox, button, entry).
+
+Protype 1 (based on feedback on version 1): 
+(a) On a TK window, a listbox is used to show todo list of selected weekday. Once the button of the 
+Corresponding day is clicked, the todo list of this day will be displayed on the listbox (with a disp
+layEvent function);
+(b) A list of buttons with displayEvent command are used for selecting one weekday from Mon, Tue, ..., Sat, Sun. 
+(c) Three entry boxes are used to input event information (name, from, to)
+(d) Two buttons are used for adding and deleting events for a selected day. The new event information is read from the entry boxes. 
+
+
+Questions: when put the event functions in a separate module file and import it, a NameError always occur as these functions will use variables in the root file. Possible solution: pass these variables as an argument in the command? 
+
+
+More to do next: add more event functions such as edit event, mark event done, mark event not done, check time conflict in events?   
+
+
+
