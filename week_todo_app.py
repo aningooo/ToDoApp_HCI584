@@ -56,6 +56,12 @@ def displayEvent(text, todo_this_week, day_dict, day_button):
    
 #add event to select weekday
 def newEvent(day_dict,todo_this_week):
+    """
+    Add new event to selected weekday
+    INPUT:
+    day_dict: a one-item list to keep track of which weekday, day_dict will be updated to the selected day (text) once the button of this day is clicked. it will be used later for editing events
+    todo_this_week: the dictionary contains every weekday's todo list
+    """
 
     #first check the input time period is legit
     fromtime = from_entry.hours() + from_entry.minutes()/60.0;
@@ -134,6 +140,7 @@ def newEvent(day_dict,todo_this_week):
     else:
         messagebox.showwarning("warning", "Please enter some event.")
 
+#get the starting time of the event from entry
 def getFromtime(this_event):
         str1 = this_event["from"]
         str2 = this_event["to"]
@@ -147,6 +154,12 @@ def getFromtime(this_event):
         
 #remove event from select weekday
 def deleteEvent(day_dict,todo_this_week):
+    """
+    delete event from listbox and from todo_this_week
+    INPUT:
+    day_dict: a one-item list to keep track of which weekday, day_dict will be updated to the selected day (text) once the button of this day is clicked. it will be used later for editing events
+    todo_this_week: the dictionary contains every weekday's todo list
+    """
     #delete event from listbox and from todo_this_week
     thisday = day_dict["current"]
     for item in lb.curselection():
@@ -159,6 +172,12 @@ def deleteEvent(day_dict,todo_this_week):
 
 #edit select event from select weekday
 def editEvent(day_dict,todo_this_week):
+    """
+    edit event from listbox and from todo_this_week
+    INPUT:
+    day_dict: a one-item list to keep track of which weekday, day_dict will be updated to the selected day (text) once the button of this day is clicked. it will be used later for editing events
+    todo_this_week: the dictionary contains every weekday's todo list
+    """
     #edit event from listbox and from todo_this_week
     thisday = day_dict["current"]
     
@@ -192,6 +211,12 @@ def editEvent(day_dict,todo_this_week):
         
 #mark select event from select weekday to be completed
 def markEventDone(day_dict,todo_this_week):
+    """
+    mark event DONE from listbox and from todo_this_week
+    INPUT:
+    day_dict: a one-item list to keep track of which weekday, day_dict will be updated to the selected day (text) once the button of this day is clicked. it will be used later for editing events
+    todo_this_week: the dictionary contains every weekday's todo list
+    """
     #edit event from listbox and from todo_this_week
     thisday = day_dict["current"]
     
@@ -221,6 +246,12 @@ def markEventDone(day_dict,todo_this_week):
                 
 #mark select event from select weekday to be not yet completed
 def markEventNotDone(day_dict,todo_this_week):
+    """
+    mark event NOT DONE from listbox and from todo_this_week
+    INPUT:
+    day_dict: a one-item list to keep track of which weekday, day_dict will be updated to the selected day (text) once the button of this day is clicked. it will be used later for editing events
+    todo_this_week: the dictionary contains every weekday's todo list
+    """
     #edit event from listbox and from todo_this_week
     thisday = day_dict["current"]
     
@@ -413,7 +444,6 @@ day_button[day].configure(bg="yellow")
 # --------------------------------------------- #
 
 #Add entries for input event information
-
 #enter event information
 entry_frame = Frame(app_win)
 entry_frame.pack(pady=20)
@@ -511,6 +541,10 @@ delEvent_btn.grid(row=3,column=3,columnspan=3)
 
 
 
+
+# --------------------------------------------- #
+
+#Add button for editing event, marking event DONE, marking event NOT DONE
 
 editEvent_btn = Button(
     button2_frame,
