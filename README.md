@@ -11,23 +11,23 @@ Simply git clone the package into your local machine to have the working directo
 # Usage
 
 Launch the App from terminal: python3 week_todo_app.py
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot1.png)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/blob/main/tmp/ScreenShot1.png)
  
 Add event:
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot2.png)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/blob/main/tmp/ScreenShot2.png)
 
 Delete Event:
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot3.png)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/blob/main/tmp/ScreenShot3.png)
 
 Event Marked Completed:
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot4.png)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/blob/main/tmp/ScreenShot4.png)
 
 Event Marked Not Completed:
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot5.png)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/blob/main/tmp/ScreenShot5.png)
 
 Edit Event: 
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot6.png)
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot7.png)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/blob/main/tmp/ScreenShot6.png)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/blob/main/tmp/ScreenShot7.png)
 
 
 # Contributing
