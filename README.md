@@ -11,7 +11,7 @@ Simply git clone the package into your local machine to have the working directo
 # Usage
 
 Launch the App from terminal: python3 week_todo_app.py
-![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/Screen Shot 2022-08-05 at 2.23.47 PM.png?raw=true)
+![Screenshot](https://github.com/aningooo/ToDoApp_HCI584/tmp/ScreenShot1.png?raw=true)
  
 Add event:
 /Users/luos/Desktop/Screen Shot 2022-08-05 at 2.32.21 PM.png
